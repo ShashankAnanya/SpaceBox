@@ -1,0 +1,187 @@
+<!DOCTYPE HTML>
+
+
+<HTML>
+	<head>
+		<title> SPACE BOX </title>
+		<link rel="icon" href="logo1.png" type="png">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="web.css">
+
+<style>
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer; 
+  width: 110px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  right: -380px;
+  top: -30px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+
+
+      .imgs{
+        position: relative;
+          animation: mymove 1s infinite;
+          animation-direction: alternate;
+      }
+
+@keyframes mymove {
+  from{top: 0px;}
+  to{top: 20px;}
+}
+</style>
+	</head>
+
+	<body style="background-color:; white; margin:0px">
+<div style=" background-attachment: fixed; background-image: url(back.jpg); background-repeat: no-repeat; background-position: center; background-size: 100%; z-index: -1">
+		<div style="border:5px outset; border-width; height:85px ; border-color:white; ; background-attachment: fixed;" >
+			<IMG SRC="logo.png" ALT="some text" WIDTH=150 HEIGHT=60 style="padding: 10px ; padding-top: 10px;" >
+			<div class="dropdown">
+  				<button class="dropbtn">Case</button>
+  				<div class="dropdown-content">
+  					<a href="https://www.xpg.com/us/feature/640/" target="_blank">XPG Battlecruiser</a>
+  					<a href="https://www.coolermaster.com/catalog/cases/mid-tower/masterbox-mb530p/" target="_blank">Cooler Master MasterBox MB530P</a>
+  					<a href="https://www.coolermaster.com/catalog/cases/mid-tower/mastercase-sl600m/" target="_blank">Cooler Master MasterCase SL600M</a>
+  				</div>
+  			</div>
+
+
+			<div class="dropdown">
+  				<button class="dropbtn">Processor</button>
+  				<div class="dropdown-content">
+  					<a href="https://ark.intel.com/content/www/us/en/ark/products/199332/intel-core-i9-10900k-processor-20m-cache-up-to-5-30-ghz.html" target="_blank">Intel Core i9 10900K</a>
+  					<a href="https://ark.intel.com/content/www/us/en/ark/products/186604/intel-core-i7-9700k-processor-12m-cache-up-to-4-90-ghz.html" target="_blank">Intel Core i7 9700K</a>
+  					<a href="https://www.amd.com/en/products/cpu/amd-ryzen-9-3900x" target="_blank">AMD Ryzen 9 3900X</a>
+  				</div>
+  			</div>
+
+  			<div class="dropdown">
+  				<button class="dropbtn">RAM</button>
+  				<div class="dropdown-content">
+  					<a href="https://www.corsair.com/us/en/Categories/Products/Memory/vengeance-led-configurator/p/CMU16GX4M2C3200C16" target="_blank">Corsair Vengeance LED</a>
+  					<a href="https://www.gskill.com/products/1/165/166/Trident-Z-RGB" target="_blank">G.Skill Trident Z RGB </a>
+  					<a href="https://www.hyperxgaming.com/us/memory/predator-ddr4" target="_blank">Kingston HyperX Predator</a>
+  				</div>
+  			</div>
+
+  			<div class="dropdown">
+  				<button class="dropbtn">Graphics</button>
+  				<div class="dropdown-content">
+  					<a href="https://www.nvidia.com/en-in/geforce/graphics-cards/rtx-2080-ti/" target="_blank">Nvidia GeForce RTX 2080 Ti</a>
+  					<a href="https://www.nvidia.com/en-in/geforce/graphics-cards/rtx-2070-super/" target="_blank">Nvidia GeForce RTX 2070 Super</a>
+  					<a href="https://www.amd.com/en/products/graphics/amd-radeon-rx-5700-xt" target="_blank">AMD Radeon RX 5700</a>
+  				</div>
+  			</div>
+
+  			<div class="dropdown">
+  				<button class="dropbtn">DMPS</button>
+  				<div class="dropdown-content">
+  					<a href="https://www.corsair.com/us/en/Categories/Products/Power-Supply-Units/cx-series-config/p/CP-9020120-NA" target="_blank">Corsair CX450</a>
+  					<a href="https://www.corsair.com/us/en/Categories/Products/Power-Supply-Units/Power-Supply-Units-Advanced/RMx-Series/p/CP-9020177-NA" target="_blank">Corsair RM550x</a>
+  					<a href="https://seasonic.com/prime-ultra-titanium?__cf_chl_jschl_tk__=8e076dbbe27ef19363f996e34cd94b7c6c0f34ee-1594751450-0-AcRDCPUL8fb08bjeYRiYr2FB223qxmt1fhvbCdV4rIw9jkShbu2E8U8ZTORex7cmocSvNkEqUtSKnZH-07XMRmdwd1yRxghmXL-R3q2Oc4MEsbyREepGRN380z7EPYkk6_mSDLfr-E5FPPg4iSFLoGxxDUxCPG3F-meb2_Q1A7rhBrxtgXZlRWBWdkWa3fYoDiRhamsPGTy6Q4uzRRNyyiqYGl49BkZitrimO6wRTwO8rXZmuTiYWqgU9kdIilsgpkDrxUDaUy6xgJnvrit09Otmu0AVMzP7phlaEN9Ai0R3" target="_blank">Seasonic Prime Titanium</a>
+  				</div>
+  			</div>
+
+  			<div class="dropdown">
+  				<button class="dropbtn">Fan</button>
+  				<div class="dropdown-content">
+  					<a href="https://noctua.at/en/nf-s12b-redux-1200-pwm" target="_blank">Noctua SNF-S12B Redux</a>
+  					<a href="https://www.corsair.com/us/en/Categories/Products/Fans/ml-config/p/CO-9050072-WW" target="_blank">Corsair LL120 RGB Fans</a>
+  					<a href="https://www.thermaltake.com/riing-12-led-blue.html" target="_blank">Thermaltake Riing Series</a>
+  				</div>
+  			</div>
+		</div>
+
+        <div>
+      <a class="imgs" href="file:///C:/Users/shash/Desktop/sem%205/FWD/SpaceBox/AH%20T600.html" target="_blank">
+      <img src="AH6T600.jpg" style="float: left;width: 420px; height: 450px">
+      </a>
+
+      <a class="imgs" href="file:///C:/Users/shash/Desktop/sem%205/FWD/SpaceBox/level20HT.html" target="_blank">
+        <img src="pc3.jpg" style="float: right;width: 400px; height: 450px">
+        <p><strong>This is for youtube</strong></p>
+      </a>
+
+      <a class="imgs" href="file:///C:/Users/shash/Desktop/sem%205/FWD/SpaceBox/eg.html" target="_blank">
+        <img src="pc1.jpg" style="float: center;width: 420px; height: 450px">
+      </a> 
+    </div>
+  </div>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+  
+  		<br><br><br>
+  		<center>
+  		<div class="pagination">
+  		<a href="#">&laquo;</a>
+  		<a href="#" class="active">1</a>
+  		<a href="https://www.google.com/search?q=hi&rlz=1C1CHBF_enIN862IN862&oq=hi&aqs=chrome..69i57j35i39l2j0l2j69i60j69i61l2.2754j0j7&sourceid=chrome&ie=UTF-81">2</a>
+  		<a href="#">3</a>
+ 	 	<a href="#">4</a>
+	  	<a href="#">5</a>
+	  	<a href="#">6</a>
+  		<a href="#">&raquo;</a>
+		</div>
+		</center>
+
+  </body>
+
+</HTML>
+
